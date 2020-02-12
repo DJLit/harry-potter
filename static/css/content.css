@@ -1,11 +1,11 @@
 @font-face {
   font-family: ParryHotter;
-  src: url('static/font/ParryHotter.ttf');
+  src: url('ParryHotter.ttf');
 }
 
 @font-face {
   font-family: BluuNext;
-  src: url('static/font/BluuNext.otf');
+  src: url('BluuNext.otf');
 }
 
 /* OVERRIDES */

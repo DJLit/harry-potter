@@ -1,0 +1,36 @@
+@font-face {
+  font-family: ParryHotter;
+  src: url('/static/font/ParryHotter.ttf');
+}
+
+@font-face {
+  font-family: BluuNext;
+  src: url('/static/font/BluuNext.otf');
+}
+
+/* OVERRIDES */
+
+body {
+  font-family: BluuNext;
+}
+
+/* UTILITIES */
+
+.hp-font {
+  font-family: ParryHotter;
+}
+
+.hp-title {
+  font-size: 8rem;
+}
+
+.hp-subtitle {
+  font-size: 6rem;
+}
+
+.fucking-center-it {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

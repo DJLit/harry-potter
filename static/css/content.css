@@ -1,6 +1,7 @@
 @font-face {
   font-family: ParryHotter;
-  src: url('ParryHotter.ttf');
+  src: url('parryhotter-webfont.woff2') format('woff2'),
+       url('parryhotter-webfont.woff')  format('woff');
 }
 
 @font-face {

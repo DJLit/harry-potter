@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: BluuNext;
-  src: url('BluuNext.otf');
+  src: url('bluunext-webfont.woff2') format('woff2'),
+       url('bluunext-webfont.woff')  format('woff');
 }
 
 /* OVERRIDES */

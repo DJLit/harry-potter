@@ -1,0 +1,61 @@
+@font-face {
+    font-family: BluuNext;
+    src: url('bluunext-webfont.woff2') format('woff2'),
+         url('bluunext-webfont.woff')  format('woff');
+  }
+  @font-face {
+    font-family: QuiteMagical;
+    src: url('../font/WizardOfTheMoon.ttf')
+  }
+.outer{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+h1{
+    font-size: 80px;
+}
+#main-contain{
+    position: absolute;
+ top: 210px; 
+  
+  width: 100%;
+  min-height: 100%;
+}
+.inp{
+    background: transparent;
+    border-radius: 30px; 
+    border-width: 3px;
+    color:white;
+    width: 600px;
+    height: 60px;
+    padding: 20px;
+    font-size: 25px;
+}
+::placeholder{
+    color: white !important;
+    opacity: 1 !important;
+}
+:-ms-input-placeholder {
+ color: white !important;
+ opacity: 1 !important;
+}
+
+::-ms-input-placeholder {
+ color: white !important;
+ opacity: 1 !important;
+}
+@media screen and (max-width: 600px) {
+    .inp{
+        width: 400px;
+    }
+    h1{
+        font-size: 65px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .inp{
+        width: 310px;
+    }
+}

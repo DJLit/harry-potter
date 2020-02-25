@@ -18,7 +18,7 @@ h1{
 }
 #main-contain{
     position: absolute;
- top: 210px; 
+ top: 400px; 
   
   width: 100%;
   min-height: 100%;
@@ -33,18 +33,29 @@ h1{
     padding: 20px;
     font-size: 25px;
 }
+button:hover{
+    opacity: 0.7;
+}
+.logos{
+    height: 125px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
 ::placeholder{
     color: white !important;
     opacity: 1 !important;
+    font-family: QuiteMagical !important;
 }
 :-ms-input-placeholder {
  color: white !important;
  opacity: 1 !important;
+ font-family: QuiteMagical !important;
 }
 
 ::-ms-input-placeholder {
  color: white !important;
  opacity: 1 !important;
+ font-family: QuiteMagical !important;
 }
 @media screen and (max-width: 600px) {
     .inp{

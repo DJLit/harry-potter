@@ -1,78 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-  <title>DJ LIT | Harry Potter Quiz</title>
-
-  <link rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous">
-
-  <link rel="stylesheet" href="static/css/stars.css">
-  <link rel="stylesheet" href="static/css/content.css">
-</head>
-
-<body>
-  <div id="star-container">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-  </div>
-
-  <main id="main-container">
-    
-    <section class="container-flex p-5">
-      <div class="vh-100 w-100 fucking-center-it">
-        <img style="height: 12rem; width: auto; padding: 1rem;" src="static/img/hallows.svg">
-        <h3 style="width: 60%" class="hp-font">The</h3>
-        <h1 class="hp-font hp-title">Harry Potter</h1>
-        <h2 class="hp-font hp-subtitle">Quiz</h2>
-
-        <h5>Presented by</h5>
-        <img style="height: 6rem; width: auto; padding: 1rem;" src="static/img/djlit-mtw.svg">
-        <h6>DJ LIT</h6>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+      <title>DJ LIT | Harry Potter Quiz</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="static/css/stars.css">
+      <link rel="stylesheet" href="static/css/content.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id="star-container">
+         <div id="stars"></div>
+         <div id="stars2"></div>
+         <div id="stars3"></div>
       </div>
-    </section>
-
-    <section class="container-flex p-5">
-      <div class="row">
-        <div class="col-md-4 col-xs-12 fucking-center-it">
-          <h1 class="text-center">Checkout the trailer!</h1>
-        </div>
-        <div class="col-md-8 col-xs-12 order-md-first">
-          <iframe style="height: auto; width: 100%; min-height: 30vh;" src="https://www.youtube.com/embed/5NYt1qirBWg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-flex p-5">
-      <div class="row">
-        <div class="col-md-4 col-xs-12 fucking-center-it">
-          <h1 class="text-center">Loads of goodies!</h1>
-        </div>
-        <div class="col-md-8 col-xs-12">
-          <img style="width: 100%; height: auto;" src="https://i.redd.it/kk30t6ybfamz.jpg">
-        </div>
-      </div>
-    </section>
-
-    <section class="container-flex p-5">
-      <div class="row">
-        <div class="col-md-4 col-xs-12 fucking-center-it">
-          <h1 class="text-center">March</h1>
-        </div>
-        <div class="col-md-4 col-xs-12 fucking-center-it">
-          <h1 class="text-center">9:30am</h1>
-        </div>
-        <div class="col-md-4 col-xs-12 fucking-center-it">
-          <h1 class="text-center">DJ Sanghvi</h1>
-        </div>
-      </div>
-    </section>
-
-  </main>
-</body>
-
+      <main id="main-container" style="margin-top: 90px">
+         <section class="container-flex p-5">
+            <div class="vh-100 w-100 fucking-center-it">
+               <img style="height: 12rem; width: auto; padding: 1rem;" src="static/img/hallows.svg">
+               <h1 style="width: 60%" class="hp-font">The</h1>
+               <h3 class="hp-font hp-title">Harry Potter</h3>
+               <h3 class="hp-font hp-subtitle">Quiz</h3>
+               <h5>Presented by</h5>
+               <img style="height: 6rem; width: auto; padding: 1rem;" src="static/img/djlit-mtw.svg">
+               <h6>DJ LIT</h6>
+            </div>
+         </section>
+         <section class="container-flex p-5 regbuttonouter" >
+            <div class="vh-10 w-10 fucking-center-it container   regbutton" style="cursor: pointer;">
+               <a href="register.html"><button tabindex="-1" icon="" style="margin-top:6px;margin-bottom:0; color: white;align-content: center;justify-content: center;height: 76px;width: 200"  title="Register" class="regibutton " data-aos="zoom-out">
+                  <h2 class="">Register</h2>
+               </button></a>
+            </div>
+         </section>
+         <section class="container-flex p-5">
+            <div class="row">
+               <div class="col-md-4 col-xs-12 fucking-center-it">
+                  <h1 class="text-center" style="margin-bottom:30px">Checkout the trailer!</h1>
+               </div>
+               <div class="col-md-8 col-xs-12 order-md-first" data-aos="zoom-in">
+                  <iframe style="height: auto; width: 100%; min-height: 30vh;" src="https://www.youtube.com/embed/5NYt1qirBWg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+         </section>
+         <section class="container-flex p-5">
+            <div class="row">
+               
+               <div class="col-md-6 col-xs-6 fucking-center-it" style="padding-bottom: 40px;" data-aos="flip-left" data-aos-duration="1000">
+                  <img style="height: 400px;" src="https://assets.wizardingworld.com/frontend/_next/static/images/harry-458-aefae6bd54a7de63268d95f169c69d55.png">
+               </div>
+               <div class="col-md-6 col-xs-6 fucking-center-it" data-aos="zoom-in">
+                  <h1 class="text-center" >Loads of goodies!</h1>
+               </div>
+            </div>
+         </section>
+         <section class="container-flex p-5">
+            <div class="row">
+               <div class="col-md-4 col-xs-12 fucking-center-it" data-aos="flip-left" data-aos-duration="1000">
+                  <img style=" height: 400px; margin:10px " src="https://assets.wizardingworld.com/frontend/_next/static/images/ron-690-0c050456b4b5def02d27e81747ef8a07.png">
+               </div>
+               <div class="col-md-4 col-xs-12 fucking-center-it">
+                  <h1 class="text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Movie Fans</h1>
+                  <br>
+                  <h1 class="text-center" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Book geeks</h1>
+                  <br>
+                  <h1 class="text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Everyone is welcome!</h1>
+                  <br>
+               </div>
+               <div class="col-md-4 col-xs-12 fucking-center-it" data-aos="flip-right" data-aos-duration="1000">
+                  <img style="height: 400px; margin:50px 0;" src="https://assets.wizardingworld.com/frontend/_next/static/images/hermione-421-8c565d7253d639f7edf4f265a7009042.png">
+               </div>
+            </div>
+         </section>
+         <div class="container">
+            <div class="col-lg-12">
+               <ul class="timeline">
+                  <li class="" style="margin-bottom:10px" >
+                     <div class="timeline-image" style="margin-bottom:10px" data-aos="fade-left" >
+                        <img class="img-circle img-responsive animated bounceInRight" style="width:100%; margin-right: 10px;" src='./static/img/quidditch (1).svg' alt="">
+                        <h3 style="margin-bottom:10px">Cash prizes</h3>
+                     </div>
+                  </li>
+                  <li style="margin-bottom:10px" >
+                     <div class="timeline-image" style="margin: 30px 0 40px 0"  data-aos="fade-right">
+                        <img class="img-circle img-responsive animated bounceInLeft" style="width:100%; margin-right: 10px;" src='./static/img/harry-potter.svg' alt="">
+                        <h3 style="margin-bottom:10px" >Giveaways for audience</h3>
+                     </div>
+                  </li>
+                  <li class="" style="margin-bottom:10px">
+                     <div class="timeline-image row" style="display: inline-block;" data-aos="fade-left"> 
+                        <img class="img-circle img-responsive animated bounceInRight" style="width:100%;margin-right: 10px;" src='./static/img/book.svg' alt="">
+                        <h3 style="margin-bottom:10px"  >Amazing prizes</h3>
+                     </div>
+                  </li>
+                  <li style="margin-bottom:10px" >
+                     <div class="timeline-image" data-aos="fade-right" style="display: inline-block;">
+                        <img class="img-circle img-responsive animated bounceInLeft" style="width:100%;margin-top:25px; margin-right: 10px;" src='./static/img/broom.svg' alt="">
+                        <h3 style="margin-bottom:10px" >A magical experince</h3>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         </div>
+         <br>
+         <br> 
+         <!-- <section class="container">
+            <div class="row" style="display:inline-block;">
+              <div class="col-md-8 col-xs-8 col-sm-8">
+                <h1 class="">Loads of</h1>
+                <h1 class=""> goodies!</h1>
+              </div>
+             <div class="col-md-4 col-xs-4 col-sm-4 ">
+                <img  style="" src="./static/img/broom.svg">
+            </div>
+            </div>
+            </section>
+            <section class="container">
+            <div class="row" style="">
+             
+             <div class="col-md-8 col-xs-8 col-sm-8 ">
+                <img  style="height:50%;width:100%;" src="./static/img/book.svg">
+            </div>
+            <div class="col-md-4 col-xs-4 col-sm-4 ">
+              <h1 class="">Amazing Prizes</h1>
+             
+            </div>
+            </div>
+            </section> -->
+         <!-- <section class="container">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 col-sm-4">
+                <h1 class="">Giveaways for</h1>
+                <h1 class=""> audience!</h1>
+              </div>
+             <div class="col-md-8 col-xs-8 col-sm-8 order-md-first order-xs-first">
+                <img  style="height:30;width:30%;" src="./static/img/harry-potter.svg">
+            </div>
+            </div>
+            </section>
+            <section class="container">
+            <div class="row" style="justify-content: center;align-items: center;">
+              <div class="col-md-4 col-xs-4 order-md-first order-xs-first col-sm-4" style="align-items: center;">
+                <h1 class="">A magical </h1>
+                <h1 class=""> experience!</h1>
+               
+              </div>
+             <div class="col-md-6 col-xs-6 col-sm-6 ">
+                <img  style="height:30;width:30%;" src="./static/img/quidditch (1).svg">
+            </div>
+            </div>
+            </section> --> 
+         <section class="container-flex p-5  ">
+            <div class="row ">
+               <div class="col-md-4 col-xs-12 fucking-center-it ">
+                  <h1 class="text-center">March</h1>
+               </div>
+               <div class="col-md-4 col-xs-12 fucking-center-it">
+                  <h1 class="text-center">9:30am</h1>
+               </div>
+               <div class="col-md-4 col-xs-12 fucking-center-it ">
+                  <h1 class="text-center">DJ Sanghvi</h1>
+               </div>
+            </div>
+         </section>
+         </div>
+         <footer style="margin-right: 15px; margin-left: 15px;">
+            <div class="row pt-3 pl-2 pb-3 pr-2" style="margin-top:5%;color: white;">
+               <div class="col-md-6">
+                  <!-- Heading Text  -->
+                  <div class="section-heading">
+                     <div class="border-bottom pl-2" style="width: 120px;">Reach Us</div>
+                  </div>
+                  <br>
+                  <div class="footer-text">
+                     Dwarkadas J Sanghvi College of Engineering
+                     <br>
+                     <br> Address:
+                     <span style="color: gray;"> No. U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Rd, Opp.Cooper Hospital, Vile Parle, Mumbai, Maharashtra 400056.</span>
+                     <br>
+                     <br> Email: <span style="color: gray;"></span>
+                     <br>
+                     <br> Soham Shah : <span style="color: gray;"><a style="color: gray;" href="tel:+919167533892">+919167533892</a></span>
+                     <br> Aditi Chavan : <span style="color: gray;"><a style="color: gray;" href="tel:+917506938429">+917506938429</a></span>
+                     <br>
+                     <br>
+                     <p>
+                        Follow us on: &nbsp;
+                        <a id="icons" href="https://www.facebook.com/djlitsoc/" target="_blank" style="text-decoration:none;color: white;"><i class="fa fa-facebook-f"></i> </a>&nbsp &nbsp;
+                        <a id="icons" href="https://djvu.in/" target="_blank" style="text-decoration:none;color: white;"><i class="fa fa-globe"></i> </a>&nbsp &nbsp;
+                        <a id="icons" href="https://www.instagram.com/dj.litsoc/?hl=en" target="_blank" style="text-decoration:none;color: white;"><i class="fa fa-instagram"></i> </a>&nbsp &nbsp;
+                       
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6" style="background: transparent;">
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d942.4994801090171!2d72.83743607483443!3d19.107747162267845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75f29a4205098f99!2sDwarkadas+J+Sanghvi+College+of+Engineering!5e0!3m2!1sen!2sus!4v1397913464271" frameborder="0" width="100%" height="100%"></iframe>
+               </div>
+            </div>
+         </footer>
+         <!-- Copyright -->
+         <section class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="text-center text-white pt-2 pb-2" style="font-size: small; font-weight: 400; letter-spacing: 1px;">
+                        &copy; 2020 DJLIT All Rights Reserved.
+                        <br>Designed with <span style="color:#ff3333">❤</span> by DJLIT's Technical Team
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Particles -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+      <script src="index.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init({
+           
+           
+         });
+      </script>
+   </body>
 </html>
